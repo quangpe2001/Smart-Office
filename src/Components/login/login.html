@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Folded Login Form Design</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://infiniteiotdevices.com/images/logo.png" rel="icon" sizes="16x16" type="image/gif" />
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="signIn">Click Here to Login In</div>
+		<div class="fold">
+			<form>
+				<input type="text" name="" placeholder="Username">
+				<input type="password" name="" placeholder="Password">
+				<input type="submit" name="" value="Login">
+				<a href="#" class="a">Forget Password</a>
+				<h5>Sign Up Using</h5>
+				<ul>
+					<li><a href="#" class="facebook"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="google"><i class="fa fa-google"></i><i class="fa fa-google"></i></a></li>
+				</ul>
+				<h4>Create account? <a href="#">Sign Up</a></h4>
+			</form>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$('.signIn').click(function()
+		{
+			$('.fold').toggleClass('active')
+		})
+	})
+</script>	
+</body>
+</html>
