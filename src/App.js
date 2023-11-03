@@ -7,20 +7,13 @@ import Login from './Components/login/login.jsx';
 function App() {
   return (
     <div className="App">
+      {/* <Index/> */}
       <Login/>
+      {/* <Register/> */}
     </div>
   );
 }
 
-// let counter = 0;
-// setInterval(() => {
-//     if ( counter === 65){
-//       clearInterval();
-//     } else {
-//       counter += 1;
-//       document.getElementById("number").innerHTML = counter + "%";
-//     }
-// },30)
 
 
 
